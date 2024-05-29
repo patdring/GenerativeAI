@@ -66,3 +66,63 @@ This project was inspired by the original GAN paper by Ian Goodfellow and subseq
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+# Retrieval-Augmented Generation (RAG) Example - RAG_System_Photosynthesis_Example.ipynb
+
+This notebook contains a simple example of a Retrieval-Augmented Generation (RAG) system implemented in Python using Jupyter Notebook. The system combines a retrieval module with a generative model to answer questions based on a small database of documents.
+
+## Overview
+
+RAG systems are designed to improve the quality of generated answers by leveraging relevant information retrieved from a large corpus of documents. This example demonstrates the basic principles of a RAG system using the following steps:
+
+1. **Document Preparation**: We create a small database with example documents about photosynthesis.
+2. **Retrieval Module**: We use FAISS (Facebook AI Similarity Search) to find the most similar documents to a given query.
+3. **Generative Model**: We use GPT-2, a generative language model, to generate an answer based on the retrieved documents.
+
+## Installation
+
+To run this example, you need to install the following libraries:
+
+```bash
+pip install transformers faiss-cpu
+```
+
+## References
+
+- [Hugging Face Transformers](https://github.com/huggingface/transformers) 
+- [FAISS (Facebook AI Similarity Search)](https://github.com/facebookresearch/faiss)
+- [GPT-2 Paper](https://cdn.openai.com/better-language-)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+# Text-to-Speech with Emotion Modulation - text_to_Speech_with_Emotion_Modulation.ipynb
+
+This notebook demonstrates how to generate speech from text using different libraries and techniques, including gTTS, pyttsx3, and pydub, and how to modulate the generated speech to reflect different emotions, genders, and ages.
+
+## Steps:
+1. **Install Required Packages**: Install gTTS, pyttsx3, and pydub for text-to-speech conversion and audio processing.
+2. **Generate Speech with gTTS**: Convert text to speech using Google Text-to-Speech.
+3. **Modulate Speech with pydub**: Apply filters and speed changes to simulate different emotions, genders, and ages.
+
+### Instructions:
+1. Run the installation cell to install the required packages.
+2. Execute the text-to-speech generation cell to create speech files with different emotional modulations.
+3. Modify the example texts and parameters to test with different inputs.
+
+## References
+
+- [gTTS (Google Text-to-Speech)](https://pypi.org/project/gTTS/)
+- [pyttsx3](https://pypi.org/project/pyttsx3/)
+- [pydub](https://pypi.org/project/pydub/)
+- [Coqui TTS](https://github.com/coqui-ai/TTS)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+
+
+
